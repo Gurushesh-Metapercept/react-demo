@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-const Header = () => {
+const Header = (props) => {
   const navLinkStyle = ({ isActive }) => {
     return {
       fontWeight: isActive ? "bold" : "normal",
@@ -25,6 +25,7 @@ const Header = () => {
           </NavLink>
         </li>
       </ul>
+      <button onClick={props.toggleDarkModel}>Dark Mode</button>
     </div>
   );
 };

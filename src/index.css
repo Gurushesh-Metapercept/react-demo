@@ -33,4 +33,15 @@ li + li {
   align-items: center;
   padding: 1rem 3rem;
   background: #eeeded;
+  justify-content: space-between;
+}
+
+
+
+.Container-dark {
+  background-color: #272727;
+}
+
+.Container-light {
+  background-color: rgb(216, 216, 216);
 }
